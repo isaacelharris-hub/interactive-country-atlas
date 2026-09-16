@@ -271,7 +271,7 @@ $("#saveKeyButton").addEventListener("click", async () => {
                 body: JSON.stringify({
                     model: settings.model,
                     input: "Respond with the single word OK.",
-                    max_output_tokens: 5
+                    max_output_tokens: 16
                 })
             }
         );
